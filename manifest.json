@@ -1,0 +1,19 @@
+{
+  "name": "horse-scroll-to-top",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "A scroll-to-top chrome extension ",
+  "homepage_url": "https://github.com/qh96/scroll-to-top",
+  "author": "Howard Qin",
+  "content_scripts": [{
+    "matches": [
+      "<all_urls>"
+    ],
+    "css": [
+      "src/style.css"
+    ],
+    "js": [
+      "src/index.js"
+    ]
+  }]
+}
